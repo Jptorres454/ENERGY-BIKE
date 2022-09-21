@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/register.css">
+    <title>EnergyBike</title>
+    <nav>
+        <ul>
+            <div class="LOGO">
+                LOGO
+            </div>
+            <li><a href="#Section-Home">INICIO</a></li>
+            <li><a href="#Section-Products">PRODUCTOS</a></li>
+            <li><a href="#Section-Services">SERVICIOS</a></li>
+            <li><a href="">NOSOTROS</a></li>
+            <li><a href="">USUARIOS</a></li>
+        </ul>
+    </nav>
+</head>
+<body>
+    <nav>
+        <ul class="nav-userreg">
+            <li class="font-reg">REGISTRO DE USUARIOS</li>
+            <li><img src="images/dm.png" alt="Modo Oscuro" class="dark-mode"></li>
+        </ul>
+    </nav>
+    <div class="reg">
+        <form action="submit">
+        <div class="division">
+            <div class="separate">Correo Electrónico
+                <br>
+                <input type="email" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$" required autofocus placeholder="correo@ejemplo.com">
+            </div>
+            <div class="separate">Validación de Correo Electrónico
+                <br>
+                <input type="email" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$" required autofocus placeholder="Valide su correo electrónico">
+            </div>
+        </div>
+        <div class="division">
+            <div class="separate">Nombres
+                <br>
+                <input type="text" pattern="[A-Za-z0-9]{1, 30}" required autofocus placeholder="Nombres completos">
+            </div>
+            <div class="separate">Apellidos
+                <br>
+                <input type="text" pattern="[A-Za-z0-9]{}" required autofocus placeholder="Apellidos completos">
+            </div>
+        </div>
+        <div class="division">
+            <div class="separate">Fecha de Nacimiento
+                <br>
+                <input type="date" pattern="[A-Za-z0-9]{}" required autofocus >
+            </div>
+            <div class="separate">Teléfono
+                <br>
+                <input type="text" pattern="[0-9]{1, 10}" required autofocus placeholder="Número telefónico">
+            </div>
+        </div>
+        <div class="division">
+            <div class="separate">Contraseña
+                <br>
+                <input type="password" pattern="[A-Za-z0-9]{1, 30}" required autofocus placeholder="Ingrese una contraseña">
+            </div>
+            <div class="separate">Verificación de Contraseña
+                <br>
+                <input type="password" pattern="[A-Za-z0-9]{1, 30}" required autofocus placeholder="Digite su contraseña nuevamente">
+            </div>
+        </div>
+        <br><br>
+        <div class="button">
+            <input class="submit" type="submit" value="Registrarme">
+        </div>
+        <footer>
+            Made by: Camilo Perez
+            <br>
+            @kmilo717
+        </footer>
+        </form>
+</body>
+</html>
